@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <title>Border Radius Preview</title>
+  </head>
+  <script src="borderRadius.js"></script>
+  <style>
+    p {
+      border-radius: 25px;
+      border: 2px solid #73ad21;
+      border-top-right-radius: 25px;
+      border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      padding: 50px;
+      width: 200px;
+      height: 150px;
+      float: right;
+    }
+
+    .page {
+      width: 50%;
+      margin: auto;
+    }
+
+    .border {
+      width: 60%;
+      margin: auto;
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <div class="page">
+    <h1>Welcome to the Border Radius Preview web-app!</h1>
+    <body>
+      <div class="border">
+        <p id="p"></p>
+      </div>
+    </body>
+  </div>
+</html>
