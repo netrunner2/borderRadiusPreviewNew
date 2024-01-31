@@ -1,5 +1,5 @@
 // select element from DOM
-var border = document.getElementById("p");
+var brder = document.getElementById("p");
 const btn = document.querySelector("button");
 
 // change css style
@@ -12,8 +12,8 @@ const btn = document.querySelector("button");
 // };
 
 function changeRadius() {
-  border.style.borderTopLeftRadius = "100px";
-  border.style.color = "red";
+  //   border.style.borderTopLeftRadius = "100px";
+  brder.style.padding = "100px";
   console.log("Button is working");
 }
 console.log("This is my JS script");
