@@ -13,7 +13,7 @@ const btn = document.querySelector("button");
 
 function changeRadius() {
   //   border.style.borderTopLeftRadius = "100px";
-  brder.style.padding = "100px";
+  brder.style.borderTopRightRadius = "100px";
   console.log("Button is working");
 }
 console.log("This is my JS script");
